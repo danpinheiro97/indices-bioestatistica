@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+body
+{
+    background-color:#12784a;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color:#111f2a;
+}
+.menubar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right:15px;
+    width:1355px;
+    height:99px;
+    background-color:#171a21;
+    z-index: 2;
+    
+}
+nav#menu1{
+    list-style: none;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top:20px;
+    right:50px;
+
+    
+}
+nav#menu1 li{
+    display: inline-block;
+    padding:5px;
+}
+
+nav#menu2{
+    list-style: none;
+    position: relative;
+    text-align: center;
+    left:130px;
+    bottom:10px;
+    text-transform: uppercase;
+}
+nav#menu2 li{
+    display: inline-block;
+    padding: 5px;
+    font-size:10pt;
+    padding:0px;
+    padding-right:5px;
+    padding-top:-3px;
+    padding-bottom:-3px;
+    margin:0px;
+}
+
+nav#menu1 li:hover{
+    text-decoration: none;
+    transition: 0.2s;
+    color:white;
+
+}
+nav#menu2 li:hover{
+    text-decoration: none;
+    transition: 0.2s;
+    color:white;
+
+}
+.menu li ul{
+    position: absolute;
+    display: none;
+    text-align:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #171a21;
+        font-style: none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+.menu li ul li{
+    display: block;
+
+}
+.opt1{
+    position:relative;
+    right:35px;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.opt1:hover{
+    color:white;
+    transition:0.2s;
+}
+.opt{
+    color:rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:350px;
+}
+
+
+header{
+    padding:0px;
+    position:Relative;
+    bottom:30px;
+    background-color:#a6a95a;
+    border-radius: 20px;
+}
+img#fp{
+    width:250px;
+    border-radius: 50%;
+    position:relative;
+    left: 100px;
+    bottom:30px;
+    margin: 5px;
+    padding:5px;
+    border: 2px solid rgba(46, 228, 10, 0.623);
+    
+}
+table{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 500px;
+    bottom:260px;
+    color:white;
+}
+
+div#profile{
+    position: relative;
+    border-bottom: 1px solid white;
+    height: 260px;
+}
+
+.ce{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.cd{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    left:200px;
+
+}
+
+table#testudos1{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 0px;
+    top:0px;
+    color:white;
+    border: 5px solid green;
+    box-shadow: 0px 0px 2px 0px green;
+    border-radius: 10px;
+    
+
+}
+#testudos1 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:50px;
+}
+
+table#testudos2{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 0px;
+    top:0px;
+    color:white;
+    border: 5px solid green;
+    top:20px;
+    border-radius: 10px;
+    
+
+}
+#testudos2 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:50px;}
+
+h1#titulo1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    width:500px;
+
+    position:relative;
+    background-color:rgba(46, 228, 10, 0.623);
+    text-align: center;
+    border-radius: 20px;
+}
+h1#titulo2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    width:500px;
+    background-color:rgba(46, 228, 10, 0.623);
+    text-align: center;
+    position: relative;
+    left: 830px;
+    bottom:585px;
+    border-radius:20px;
+}
+
+table#cursos1{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 830px;
+    bottom:585px;
+    color:white;
+    border: 5px solid green;
+    border-radius: 10px;
+
+    
+
+}
+#cursos1 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:-30px;
+}
+    
+table#cursos2{
+    position: relative;
+    width:500px;
+    height:150px;
+    left: 830px;
+    bottom:565px;
+    color:white;
+    border: 5px solid green;
+    border-radius: 10px;
+
+    
+}
+#cursos2 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:0px;}
+
+table#cursos3{
+    position: relative;
+    width:500px;
+    height:150px;
+    left: 830px;
+    bottom:545px;
+    color:white;
+    border: 5px solid green;
+    border-radius: 10px;
+
+    
+}
+#cursos3 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:0px;}
+
+table#cursos4{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 830px;
+    bottom:525px;
+    color:white;
+    border: 5px solid green;
+    border-radius: 10px;
+
+    
+}
+#cursos4 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:-30px;}
+
+table#cursos5{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 830px;
+    bottom:505px;
+    color:white;
+    border: 5px solid green;
+    border-radius: 10px;
+
+    
+}
+#cursos5 .cd {
+    position: relative;
+    font-weight: bolder;
+    left:-30px;}
+
+table#cursos6{
+    position: relative;
+    width:500px;
+    height: 150px;
+    left: 830px;
+    bottom:485px;
+    color:white;
+    border: 5px solid green;
+    border-radius: 10px;
+
+    
+}
+#cursos6 .cd {
+    position: relative;
+    font-weight: bolder;
+    left: -48px;}
+
+h1#titulo3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    width:300px;
+    background-color:rgba(46, 228, 10, 0.623);
+    text-align: center;
+    position: relative;
+    left: 516px;
+    bottom:368px;
+    border-radius: 20px;
+}
+ul#interes{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    position: relative;
+    width:255px;
+    height:141px;
+    left:516px;
+    bottom:367px;
+    border:5px solid green;
+    border-radius: 10px;
+}
+
+.list{
+    position: relative;
+    top:25px;
+}
+img#iconef{
+    background-color:gray;
+    width:50px;
+    position:relative;
+    bottom:250px;
+    left:503px;
+
+}
+
+img#iconei{
+    width:70px;
+    position:relative;
+    bottom:250px;
+    left:508px;
+}
