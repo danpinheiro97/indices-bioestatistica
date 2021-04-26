@@ -25,11 +25,17 @@
         </nav>
       </div>
     </header>
+    <div id="divp">
+      <aside = id="left">
+      <h1>O que é o índice de Shannon?</h1>
+      <p>O índice de Shannon (também chamado de índice Shannon-Weaver ou de índice do Shannon-Wiener) é um dos diversos índices da diversidade usados para medir a diversidade em dados categóricos. É simplesmente a informação entropica da distribuição, tratamento as espécies como símbolos e o tamanhos da respectiva população como uma probabilidade.</p>
+
+    </aside>
     <section id="func">
       <h1>ÍNDICE DE SHANNON</h1>
       <form action="" method="post">
         <p>
-          <label for="inpid">Qual é o ID da comunidade?</label><br />
+          <label for="inpid">ID da comunidade</label><br />
           <input
           class = "inputsh"
             type="number"
@@ -38,7 +44,7 @@
             min="1"
             max="9999"
           /><br />
-          <label for="inpqt">Quantas espécies há nessa comunidade?</label><br />
+          <label for="inpqt">Quantas espécies na comunidade?</label><br />
           <input
              class = "inputsh"
             type="number"
@@ -61,7 +67,7 @@
         />
       </p>
       <button class="buttonsh" type="button" id="register" onclick="dados_tabela()">
-        Importar Dados
+        IMPORTAR DADOS
       </button><br/>
       <table id="tableshannon">
         <thead>
@@ -74,7 +80,8 @@
       <tbody id = "tbody">
         </tbody>
       </table>
-       <input class="buttonsh"type="button" id="btnExport" value="Exportar no Excel" />
+      <br>
+       <input class="buttonsh"type="button" id="btnExport" value="EXPORTAR NO EXCEL" />
        <script>
         $("#btnExport").click(function(e) {
           var a = document.createElement('a');
@@ -90,17 +97,19 @@
 
 
     </section>
-    <aside = id="left">
-      <h1>O que é o índice de Shannon?</h1>
-      <p>O índice de Shannon (também chamado de índice Shannon-Weaver ou de índice do Shannon-Wiener) é um dos diversos índices da diversidade usados para medir a diversidade em dados categóricos. É simplesmente a informação entropica da distribuição, tratamento as espécies como símbolos e o tamanhos da respectiva população como uma probabilidade.</p>
-
-    </aside>
     <aside id="right">
       <h1>Fórmula</h1>
       <picture>
         <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f837a019109e054043577a3396c2cca5a2c3ae50" alt="">
       </picture>
+      <h2>Como Utilizar o programa!</h2>
+      <p>1. Identifique a sua comunidade com um número, exemplo: 1,2,3...</p>
+      <p>2. Entre com a quantidade de espécies diferentes existem na sua comunidade</p>
+      <p>3. Ao cumprir a etapa 02 o programa vai abrir a quantidade exatas de campos a serem preenchidos com o N total de cada espécie na sua comunidade</p>
+      <p>4. O botão importar dados serve para transferir as informações para uma tabela, permitindo que novos dados sejam adicionados ao programa</p>
+      <p>5. O botão Exportar no Excel te permite exportar a tabela gerada na WEB para um arquivo xls compátivel com o excel.</p>
     </aside>
     <footer></footer>
+    </div>
   </body>
 </html>
