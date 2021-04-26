@@ -2,7 +2,7 @@
 
 body
 {
-    background-color:#12784a;
+    background-color:#356F8D;
     background-size: 900px;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -15,7 +15,7 @@ body
     right:15px;
     width:1355px;
     height:80px;
-    background-color:#a6a95a;
+    background-color:#D2BE3B;
     z-index: 2;
     border: #646631 2px solid;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.57);

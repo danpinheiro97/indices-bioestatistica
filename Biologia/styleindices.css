@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+
 body
 {
-    background-color:#12784a;
+    background-color:#bfc6c985;
     background-size: 900px;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -13,110 +14,113 @@ body
     justify-content: center;
     position: relative;
     right:15px;
-    width:1355px;
-    height:99px;
-    background-color:#171a21;
+    width:500px;
+    height:80px;
+    background-color:transparent;
     z-index: 2;
+    left: 800px;
+    border-bottom: 2px solid black;
+    border-radius: 60px;
+ 
     
 }
 nav#menu1{
     list-style: none;
-    position: relative;
+    display: flex;
     text-align: center;
-    text-transform: uppercase;
-    top:20px;
-    right:50px;
 
-    
 }
 nav#menu1 li{
     display: inline-block;
-    padding:5px;
-}
+    padding:8px;
+    margin-top:15px;
 
-nav#menu2{
-    list-style: none;
-    position: relative;
-    text-align: center;
-    left:130px;
-    bottom:10px;
-    text-transform: uppercase;
-}
-nav#menu2 li{
-    display: inline-block;
-    padding: 5px;
-    font-size:10pt;
-    padding:0px;
-    padding-right:5px;
-    padding-top:-3px;
-    padding-bottom:-3px;
-    margin:0px;
 }
 
 nav#menu1 li:hover{
     text-decoration: none;
     transition: 0.2s;
     color:white;
-
 }
-nav#menu2 li:hover{
-    text-decoration: none;
-    transition: 0.2s;
-    color:white;
 
-}
 .menu li ul{
     position: absolute;
     display: none;
-    text-align:left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #171a21;
-        font-style: none;
+    text-align: right;
+    background-color: #a6a95a;
+    font-style: none;   
+    border: #12784a 2px solid;
+    border-radius: 5px;
 }
 .menu li:hover ul, .menu li.over ul{
     display: block;
 }
 .menu li ul li{
     display: block;
-
 }
+
 .opt1{
     position:relative;
-    right:35px;
-    color:rgba(255, 255, 255, 0.5);
+    color:#111f2a;
+    height:fit-content;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom:8px;
+    font-weight: normal;
+    right:40px;
 }
 
 .opt1:hover{
     color:white;
     transition:0.2s;
+
 }
 .opt{
     color:rgba(255, 255, 255, 0.5);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right:350px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right:50px;
+    color:black;
+    font-weight: lighter;
+}
+
+.opt:hover{
+    border: #12784a 1px solid;
+    border-radius: 5px;
+
 }
 
 
 header{
     padding:0px;
     position:Relative;
-    bottom:30px;
-    background-color:#a6a95a;
-    border-radius: 20px;
+    bottom:70px;
+}
+img#leaf{
+    width:40px;
+    position: relative;
+    top:70px;
+    left:820px; 
+
+}
+img#leaf2{
+    width:40px;
+    position: relative;
+    top:70px;
+    left:1170px; 
+
 }
 section#func{
     display: block;
-    box-shadow: 0px 1px 2px 2px #f8ddb7;
     padding-left:6%;
     margin-left: 2%;
     margin-right: 2%;
     margin-top:0%;
-    border-radius: 20px;
+    border-radius: 30px;
     width:600px;
     height: fit-content;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 1px solid green;
-    background-color: #4e8e42;
+    background-color: transparent;
+
+
 
 }
 
@@ -126,9 +130,9 @@ section#func{
     box-shadow: 1px sp;
     margin:5px;
     border-radius: 3px;
-    background-color: #e9cc8d;
+    background-color: black;
     text-align: center;
-    color:#111f2a;
+    color:white;
 }
 table#tables{
     position: relative;
@@ -173,15 +177,16 @@ aside#left{
     left:10px;
     bottom:485px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: green 1px solid;
-    border-radius: 20px;
-    background-image: linear-gradient(#4e8e42, #a6a95a);
-    box-shadow: 0px 1px 2px 2px #f8ddb7;
+    background-color: transparent;
     color:#111f2a;
     height: fit-content;
     padding-left: 10px;
     padding-right: 10px;
-
+    border-right: 1px solid black;
+    border-radius: 5px;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+    font-size: 10pt;
 }
 aside#left h1{
     text-align: center;
@@ -191,28 +196,30 @@ aside#left p{
     text-align: justify;
     width:285px;
     left:5px;
+    font-size: 12pt;
 }
 aside#right{
     color:#111f2a;
-    border:1px solid green;
-    box-shadow: 0px 1px 2px 2px #f8ddb7;
     width:300px;
     height:fit-content;
     left:1100px;
     bottom: 810px;
-    background-image: linear-gradient(#4e8e42, #a6a95a);
-    border-radius: 20px;
+    background-color: transparent;
+    border-radius: 5px;
     padding-right: 10px;
     padding-left: 10px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom:1px solid black
 
-   
+
 }
 
 .inputsh{
     border-radius: 3px;
     border: none    ;
-    background-color: #e9cc8d;
-    color: #120907;
+    background-color: black;
+    color: white;
     text-align: center;
 }
 aside#right h1{
@@ -229,7 +236,7 @@ aside#right picture{
 aside#right h2, p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#111f2a;
-    font-size: 15pt;
+    font-size: 12pt;
 
 }
 
@@ -238,12 +245,12 @@ div#divp{
 }
 
 table#tableshannon{
-    border: 2px solid #e9cc8d;
+    border: 2px solid #000000;
     border-radius: 8px;
 }
 table#tableshannon tr td{
-     border: 2px solid #e9cc8d;
-     color:#fffad9;
+     border: 2px solid #000000;
+     color:#000000;
      text-align: center;
      border-radius: 8px;
 
