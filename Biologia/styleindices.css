@@ -18,15 +18,14 @@ header{
     position: relative;
     width:500px;
     height:80px;
-    background-color:transparent;
-    z-index: 2;
+    background-color:#EDEDE3;
     left: 800px;
     border-bottom: 2px solid #5E5341;
-    border-radius: 60px;
+    border-radius: 35px;
     bottom:1070px;
-    z-index: 2;
- 
-    
+    margin:none;
+
+
 }
 nav#menu1{
     list-style: none;
@@ -58,6 +57,9 @@ nav#menu1 li:hover{
     font-style: none;
     top:78px;
     height: 40px;
+    width: fit-content;
+    border: 1px solid #5E5341;
+    border-radius: 2px;
 }
 .menu li:hover ul, .menu li.over ul{
     display: block;
@@ -71,7 +73,7 @@ nav#menu1 li:hover{
     position:relative;
     color:#5E5341;
     height:fit-content;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     bottom:8px;
     right:40px;
     
@@ -79,10 +81,26 @@ nav#menu1 li:hover{
 
 
 .opt{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#5E5341;
     font-weight: bolder;
 
+}
+.menu a{
+    text-decoration: none;
+    color:#5E5341;
+}
+
+.menu a:hover{
+    color:green;
+}
+
+hr#hr{
+    position: relative;
+    width:850px;
+    bottom:300px;
+    opacity: 80%;
+    color:#EDEDE3;
 }
 
 
@@ -93,10 +111,13 @@ header{
     bottom:70px;
 }
 img#leaf{
-    width:40px;
     position: relative;
+    width:40px;
+    left:830px;
     bottom:1000px;
-    left:830px; 
+    z-index: 2;
+    background: transparent;
+    
 
 }
 img#leaf2{
@@ -104,7 +125,7 @@ img#leaf2{
     position: relative;
     bottom:1000px;
     left:1165px; 
-
+   z-index: 2;
 }
 section#func{
     display: block;
