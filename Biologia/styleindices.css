@@ -3,7 +3,7 @@
 
 body
 {
-    background-color:#bfc6c985;
+    background-color:#EDEDE3;
     background-size: 900px;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -19,7 +19,7 @@ body
     background-color:transparent;
     z-index: 2;
     left: 800px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #5E5341;
     border-radius: 60px;
  
     
@@ -144,7 +144,7 @@ table#tableshannon{
     position: relative;
     top:0px;
     left:0px;
-    border: 1px solid black;
+    border: 1px solid #5E5341;
 
 }
 
@@ -178,14 +178,14 @@ aside#left{
     bottom:485px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: transparent;
-    color:#111f2a;
+    color:#5E5341;
     height: fit-content;
     padding-left: 10px;
     padding-right: 10px;
-    border-right: 1px solid black;
+    border-right: 2px solid #5E5341;
     border-radius: 5px;
-    border-top: 1px solid black;
-    border-bottom:1px solid black;
+    border-top: 2px solid #5E5341;
+    border-bottom:2px solid #5E5341;
     font-size: 10pt;
 }
 aside#left h1{
@@ -199,7 +199,7 @@ aside#left p{
     font-size: 12pt;
 }
 aside#right{
-    color:#111f2a;
+    color:#5E5341;
     width:300px;
     height:fit-content;
     left:1100px;
@@ -208,9 +208,9 @@ aside#right{
     border-radius: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom:1px solid black
+    border-left: 2px solid #5E5341;
+    border-top: 2px solid #5E5341;
+    border-bottom:2px solid #5E5341;
 
 
 }
@@ -224,7 +224,7 @@ aside#right{
 }
 aside#right h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#111f2a;
+    color:#5E5341;
     margin-left: 35%;
    
 }
@@ -235,7 +235,7 @@ aside#right picture{
 
 aside#right h2, p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#111f2a;
+    color:#5E5341;
     font-size: 12pt;
 
 }
