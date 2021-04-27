@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
+
 body
 {
     background-color:#EDEDE3;
-    background-size: 900px;
+    background-image: url("background.jpg");
+    background-size: cover;
+
     background-repeat: no-repeat;
     min-height: 100vh;
     color:#111f2a;
+}
+header{
+    height:170px;
 }
 .menubar{
     display: flex;
@@ -19,6 +25,7 @@ body
     left: 800px;
     border-bottom: 2px solid #5E5341;
     border-radius: 60px;
+    z-index: 2;
  
     
 }
@@ -28,19 +35,20 @@ nav#menu1{
     text-align: center;
     right:20px;
 
+
+
 }
 nav#menu1 li{
     display: inline-block;
-    padding:8px;
-    margin-top:15px;
-
+    padding-top: 20px;
+    padding-bottom: 23px;
+    padding-right: 20px;
 }
 
 nav#menu1 li:hover{
     text-decoration: none;
     transition: 0.2s;
     color:#308a0c;
-    font-weight: bolder;
 }
 
 .menu li ul{
@@ -48,10 +56,13 @@ nav#menu1 li:hover{
     display: none;
     text-align: right;
     background-color: #E1DCC6;
-    font-style: none;   
+    font-style: none;
+    top:78px;
+    height: 40px;
 }
 .menu li:hover ul, .menu li.over ul{
     display: block;
+   
 }
 .menu li ul li{
     display: block;
@@ -63,15 +74,16 @@ nav#menu1 li:hover{
     height:fit-content;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     bottom:8px;
-    font-weight: normal;
     right:40px;
+    
 }
 
 
 .opt{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#5E5341;
-    font-weight: lighter;
+    font-weight: bolder;
+
 }
 
 
@@ -84,34 +96,34 @@ header{
 img#leaf{
     width:40px;
     position: relative;
-    top:70px;
-    left:820px; 
+   top:75px;
+    left:830px; 
 
 }
 img#leaf2{
     width:40px;
     position: relative;
-    top:70px;
-    left:1170px; 
+    top:75px;
+    left:1165px; 
 
 }
-
 div#main{
     position:relative;
-    width:690px;
+    width:500px;
     height:300px;
     left:22%;
     top:20px;
+
 }
 .bu{
     position:relative;
-    left: 170px;
-    bottom:220px;
+    left: 215px;
+    bottom:265px;
     width:400px;
     height:50px;
-    background-color:rgba(10, 94, 119, 0.911);
-    box-shadow: 0px 0px 10px 0px black;
+    background-color:#CCB78C;
     border-radius:50px;
+    border: none;
     padding: 10px;
 
 }
@@ -127,28 +139,29 @@ div#main{
 }
 
 .bu:hover{
-    background-color:rgba(46, 228, 10, 0.623);
+    background-color:#5E5341;
+    color:#EDEDE3;
     transition:0.5s;
 }
 
 div#main h1{
     position: relative;
-    font-family: brush script mt, brush script std,  cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80pt;
-    left:0px;
-    top:10px;
-    color:rgba(11, 183, 235, 0.699);
+    right:30px;
+    bottom:60px;
+    color:#5E5341;
 
 }
 
 div#main h2{
     position:relative;
     font-family: papyrus, fantasy;
-    left: 350px;
-    bottom:190px;
+    left: 465px;
+    bottom:250px;
     font-size: 45pt;
     font-style: initial;
-    color:rgba(46, 228, 10, 0.623);
+    color:#CCB78C;
 
 }
 
@@ -156,7 +169,8 @@ div#main p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     position:Relative;
-    bottom:230px;
-    color:white;
+    bottom:260px;
+    left: 160px;
+    color:#5E5341;
     text-align: center;
 }

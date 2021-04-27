@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 body
 {
     background-color:#EDEDE3;
@@ -6,6 +8,9 @@ body
     background-repeat: no-repeat;
     min-height: 100vh;
     color:#111f2a;
+}
+header{
+    height:170px;
 }
 .menubar{
     display: flex;
@@ -18,6 +23,7 @@ body
     left: 800px;
     border-bottom: 2px solid #5E5341;
     border-radius: 60px;
+    z-index: 2;
  
     
 }
@@ -27,11 +33,14 @@ nav#menu1{
     text-align: center;
     right:20px;
 
+
+
 }
 nav#menu1 li{
     display: inline-block;
-    padding:8px;
-    margin-top:15px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    padding-right: 20px;
 
 }
 
@@ -39,7 +48,6 @@ nav#menu1 li:hover{
     text-decoration: none;
     transition: 0.2s;
     color:#308a0c;
-    font-weight: bolder;
 }
 
 .menu li ul{
@@ -47,10 +55,14 @@ nav#menu1 li:hover{
     display: none;
     text-align: right;
     background-color: #E1DCC6;
-    font-style: none;   
+    font-style: none;
+    top:78px;
+    height: 40px;
+ 
 }
 .menu li:hover ul, .menu li.over ul{
     display: block;
+   
 }
 .menu li ul li{
     display: block;
@@ -62,15 +74,16 @@ nav#menu1 li:hover{
     height:fit-content;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     bottom:8px;
-    font-weight: normal;
     right:40px;
+    
 }
 
 
 .opt{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#5E5341;
-    font-weight: lighter;
+    font-weight: bolder;
+
 }
 
 
@@ -83,15 +96,15 @@ header{
 img#leaf{
     width:40px;
     position: relative;
-    top:70px;
-    left:820px; 
+    left:830px; 
+    top: 70px;
 
 }
 img#leaf2{
     width:40px;
     position: relative;
-    top:70px;
-    left:1170px; 
+    left:1165px; 
+    top: 70px;
 
 }
 img#fp{
@@ -102,7 +115,7 @@ img#fp{
     bottom:30px;
     margin: 5px;
     padding:5px;
-    border: 2px solid rgba(46, 228, 10, 0.623);
+    border: 2px solid #5E5341;
     
 }
 table{
@@ -111,23 +124,31 @@ table{
     height: 150px;
     left: 500px;
     bottom:260px;
-    color:white;
+    color:#5E5341;
 }
 
 div#profile{
     position: relative;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #CCB78C;
     height: 260px;
+    bottom:80px;
 }
 
 .ce{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    color:#5E5341;
 }
 .cd{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position:relative;
     left:200px;
+    color: #5E5341;
+
+}
+div#main{
+    position: relative;
+    bottom:90px;
 
 }
 
@@ -137,10 +158,9 @@ table#testudos1{
     height: 150px;
     left: 0px;
     top:0px;
-    color:white;
-    border: 5px solid green;
-    box-shadow: 0px 0px 2px 0px green;
-    border-radius: 10px;
+    color:#5E5341;
+    border: 1px solid #CCB78C;
+    border-radius: 5px;
     
 
 }
@@ -148,6 +168,7 @@ table#testudos1{
     position: relative;
     font-weight: bolder;
     left:50px;
+    color: #5E5341;
 }
 
 table#testudos2{
@@ -157,9 +178,9 @@ table#testudos2{
     left: 0px;
     top:0px;
     color:white;
-    border: 5px solid green;
+    border: 1px solid #CCB78C;
     top:20px;
-    border-radius: 10px;
+    border-radius: 2px;
     
 
 }
@@ -170,23 +191,23 @@ table#testudos2{
 
 h1#titulo1{
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color:#5E5341;
     width:500px;
 
     position:relative;
-    background-color:rgba(46, 228, 10, 0.623);
+    background-color:#CCB78C;
     text-align: center;
     border-radius: 20px;
 }
 h1#titulo2{
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color:#5E5341;
     width:500px;
-    background-color:rgba(46, 228, 10, 0.623);
+    background-color:#CCB78C;
     text-align: center;
     position: relative;
     left: 830px;
-    bottom:585px;
+    bottom:580px;
     border-radius:20px;
 }
 
@@ -196,9 +217,9 @@ table#cursos1{
     height: 150px;
     left: 830px;
     bottom:585px;
-    color:white;
-    border: 5px solid green;
-    border-radius: 10px;
+    color:#5E5341;
+    border: 1px solid #CCB78C;
+    border-radius: 2px;
 
     
 
@@ -207,6 +228,7 @@ table#cursos1{
     position: relative;
     font-weight: bolder;
     left:-30px;
+    color:#5E5341;
 }
     
 table#cursos2{
@@ -216,8 +238,8 @@ table#cursos2{
     left: 830px;
     bottom:565px;
     color:white;
-    border: 5px solid green;
-    border-radius: 10px;
+    border: 1px solid #CCB78C;
+    border-radius: 2px;
 
     
 }
@@ -233,9 +255,8 @@ table#cursos3{
     left: 830px;
     bottom:545px;
     color:white;
-    border: 5px solid green;
-    border-radius: 10px;
-
+    border: 1px solid #CCB78C;
+    border-radius: 2px;
     
 }
 #cursos3 .cd {
@@ -250,8 +271,8 @@ table#cursos4{
     left: 830px;
     bottom:525px;
     color:white;
-    border: 5px solid green;
-    border-radius: 10px;
+     border: 1px solid #CCB78C;
+    border-radius: 2px;
 
     
 }
@@ -267,8 +288,8 @@ table#cursos5{
     left: 830px;
     bottom:505px;
     color:white;
-    border: 5px solid green;
-    border-radius: 10px;
+     border: 1px solid #CCB78C;
+    border-radius: 2px;
 
     
 }
@@ -284,8 +305,8 @@ table#cursos6{
     left: 830px;
     bottom:485px;
     color:white;
-    border: 5px solid green;
-    border-radius: 10px;
+    border: 1px solid #CCB78C;
+    border-radius: 2px;
 
     
 }
@@ -296,9 +317,9 @@ table#cursos6{
 
 h1#titulo3{
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color:#5E5341;
     width:300px;
-    background-color:rgba(46, 228, 10, 0.623);
+    background-color:#CCB78C;
     text-align: center;
     position: relative;
     left: 516px;
@@ -307,32 +328,17 @@ h1#titulo3{
 }
 ul#interes{
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color:#5E5341;
     position: relative;
     width:255px;
     height:141px;
     left:516px;
     bottom:367px;
-    border:5px solid green;
-    border-radius: 10px;
+ border: 1px solid #CCB78C;
+    border-radius: 2px;
 }
 
 .list{
     position: relative;
     top:25px;
-}
-img#iconef{
-    background-color:gray;
-    width:50px;
-    position:relative;
-    bottom:250px;
-    left:503px;
-
-}
-
-img#iconei{
-    width:70px;
-    position:relative;
-    bottom:250px;
-    left:508px;
 }
