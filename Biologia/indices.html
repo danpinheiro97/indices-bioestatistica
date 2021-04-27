@@ -15,6 +15,12 @@
     
   <body>
     <header>
+      <div id="linha1">
+
+      </div>
+      <div id ="linha2">
+
+      </div>
         <img src="folha.png" alt="" id="leaf">
         <img src="folha2.png" alt="" id="leaf2">
       <div class="menubar">
@@ -43,7 +49,7 @@
       <h1>ÍNDICE DE SHANNON</h1>
       <form action="" method="post">
         <p>
-          <label for="inpid">ID da comunidade</label><br />
+          <label  class="labels" for="inpid">ID da comunidade</label><br />
           <input
           class = "inputsh"
             type="number"
@@ -52,7 +58,7 @@
             min="1"
             max="9999"
           /><br />
-          <label for="inpqt">Quantas espécies na comunidade?</label><br />
+          <label for="inpqt" class="labels" >Quantas espécies na comunidade?</label><br />
           <input
              class = "inputsh"
             type="number"
@@ -62,7 +68,7 @@
             onchange="inputs()"
           />
         </p>
-              <label>Digite a quantidade de indivíduos por espécie:<label/>
+              <label class="labels">Digite a quantidade de indivíduos por espécie:<label/>
         <div id="demo"></div>
   
       </form>
@@ -117,7 +123,7 @@
       <p>4. O botão importar dados serve para transferir as informações para uma tabela, permitindo que novos dados sejam adicionados ao programa</p>
       <p>5. O botão Exportar no Excel te permite exportar a tabela gerada na WEB para um arquivo xls compátivel com o excel.</p>
     </aside>
-    <footer></footer>
-    </div>
+    <footer>
+    </footer>
   </body>
 </html>
