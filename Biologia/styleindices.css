@@ -31,6 +31,7 @@ nav#menu1{
     position: relative;
     text-align: center;
     right:20px;
+    width:57%;
 
 
 
@@ -112,8 +113,7 @@ header{
 img#leaf{
     position: relative;
     width:40px;
-    left:830px;
-top:75px;
+    top:75px;
     z-index: 2;
     background: transparent;
     
@@ -122,9 +122,8 @@ top:75px;
 img#leaf2{
     width:40px;
     position: relative;
-top:75px;
-    left:1165px; 
-   z-index: 2;
+    top:75px;
+    z-index: 2;
 }
 section#func{
     display: block;

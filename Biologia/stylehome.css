@@ -5,41 +5,144 @@ body
 {
     background-color:#EDEDE3;
     background-image: url("background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover; 
     min-height: 100vh;
     color:#111f2a;
+    width:auto;
+  
 }
+@media (max-width:767.98px){
+    body{
+      background-image: url("background.jpg");
+        height: fit-content;
+        min-height: 0vh;
+       
+       
+    }
+}
+
+
 header{
     height:170px;
+}
+@media (max-width:767.98px){
+    header{
+        margin: 0 auto;
+    }}
+
+@media (max-width:767.98px){
+    header{
+        height:fit-content;
+        width: fit-content;
+    
+    }
+
 }
 .menubar{
     display: flex;
     justify-content: center;
     position: relative;
     width:500px;
-    height:80px;
+    height:fit-content;
     background-color:#EDEDE3;
-    left: 800px;
     border-bottom: 2px solid #5E5341;
-    border-radius: 35px;
+    border-radius: 100px;
 
 }
+@media (max-width:767.98px){
+    .menubar{display: flex;
+        justify-content: center;
+        width: 360px;
+        height:130px;
+      
+
+    }}
 nav#menu1{
     list-style: none;
     position: relative;
-    text-align: center;
+    text-align: right;
+    width:57%;
     right:20px;
-
-
-
 }
+
+@media (max-width:767.98px){
+    nav#menu1
+        {
+            width: 100%;
+    }}
 nav#menu1 li{
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 23px;
-    padding-right: 20px;
+    padding-top: 10.01%;
+    padding-bottom: 6.07017544%;
+    padding-right: 7.01%;
+    
 }
+@media (max-width:767.98px){
+    nav#menu1 li
+        {
+            width: 20%;
+            display: inline-block;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-right: 0px;
+            
+    }}
+li#but1{
+    position: relative;
+    
+
+}
+@media (max-width:767.98px){
+    li#but1{
+        right:80px;
+        top:25px;
+        padding:0px;
+        width: 50px;
+    
+
+    }}
+
+li#but2{
+    position: relative;
+ 
+}
+@media (max-width:767.98px){
+    li#but2{
+    right:70px; 
+    top:25px;
+    padding:0px;
+     width: fit-content;
+       
+
+}}
+li#but3{
+    position: relative;
+    
+}
+
+ @media (max-width:767.98px){
+li#but3{
+       right: 140px;
+        top:5px;
+        
+        padding:0px;
+}}
+
+li#but4{
+    position: relative;
+    
+}
+
+ @media (max-width:767.98px){
+li#but4{
+    right:60px; 
+    top:25px;   
+        padding:0px;
+         width: fit-content;
+       
+}}
+
+
 
 nav#menu1 li:hover{
     text-decoration: none;
@@ -50,15 +153,25 @@ nav#menu1 li:hover{
 .menu li ul{
     position: absolute;
     display: none;
+    width: 160%;
     text-align: right;
     background-color: #E1DCC6;
     font-style: none;
-    top:78px;
-    height: 40px;
-    width: fit-content;
     border: 1px solid #5E5341;
     border-radius: 2px;
 }
+@media (max-width:767.98px){
+    .menu li ul{
+        position: absolute;
+        top: 100%;
+        left:0%;
+        width: 180px;
+        height:30px;
+        padding: 0px;
+
+        
+    }}
+
 .menu li:hover ul, .menu li.over ul{
     display: block;
    
@@ -72,11 +185,10 @@ nav#menu1 li:hover{
     color:#5E5341;
     height:fit-content;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    bottom:8px;
-    right:40px;
-    
+    text-align: left;
+    right:25%;
+    bottom:3%;
 }
-
 
 .opt{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -89,6 +201,15 @@ nav#menu1 li:hover{
     color:#5E5341;
 }
 
+li#but3.opt1{
+    position: relative;
+}
+@media (max-width:767.98px){
+   li#but3.opt1{
+        width:180px;
+        left:0px;
+    }}
+
 .menu a:hover{
     color:green;
 }
@@ -100,6 +221,13 @@ hr#hr{
     opacity: 80%;
     color:#EDEDE3;
 }
+@media (max-width:767.98px){
+    hr#hr{
+        width:100%;
+        position: relative;
+        bottom:30px;
+        left:12%
+    }}
 
 
 
@@ -112,20 +240,33 @@ img#leaf{
     position: relative;
     width:40px;
     top:75px;
-    left:830px;
-    z-index: 2;
+    right:90%;
+    z-index: 1;
     background: transparent;
     
 
 }
+@media (max-width:767.98px){
+    img#leaf{
+        right:220px;
+        z-index: 1;
+    }}
 img#leaf2{
     width:40px;
     position: relative;
     top:75px;
-    left:1165px; 
-   z-index: 2
-   ;
+    left:30%;
+   z-index: 1;
 }
+@media (max-width:767.98px){
+    img#leaf2{
+        position: relative;
+        left:0px;
+        margin-right: 10px;
+        z-index: 1;
+        
+    }}
+
 div#main{
     position:relative;
     width:500px;
@@ -134,6 +275,16 @@ div#main{
     top:20px;
 
 }
+
+@media (max-width:767.98px){
+    div#main{
+        width:fit-content;
+        left:0px;
+        height:fit-content
+        
+    }
+}
+
 .bu{
     position:relative;
     left: 325px;
@@ -147,6 +298,18 @@ div#main{
 
 
 }
+@media (max-width:767.98px){
+    .bu{
+        position:relative;
+        left:40%;
+        bottom:0px;
+        width:fit-content;
+        height: fit-content;
+     background-color:#EDEDE3;
+    border-radius:20px;
+    border: none;
+
+    }}
 
 .bu  a{
     text-decoration: none;
@@ -178,6 +341,15 @@ div#main h1{
     color:#EDEDE3;
 
 }
+@media (max-width:767.98px){
+    div#main h1{
+        font-size:25pt;
+        position: relative;
+        top:40px;
+        left:12%;
+    }
+
+}
 
 div#main h2{
     position:relative;
@@ -189,13 +361,29 @@ div#main h2{
     color:#EDEDE3;
 
 }
+@media (max-width:767.98px){
+    div#main h2{
+        font-size:14pt;
+        width:150px;
+        position: relative;
+        left:60%;
+        bottom:12px;
+    }}
+
 
 div#main p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 20pt;
     position:Relative;
     bottom:300px;
     left: 160px;
     color:#EDEDE3;
     text-align: center;
 }
+@media (max-width:767.98px){
+    div#main p{
+        font-size:8pt;
+        position: relative;
+        left:12%;
+        bottom:20px;
+    }}
