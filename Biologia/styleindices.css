@@ -34,6 +34,7 @@ header{
     background-color:#EDEDE3;
     border-bottom: 2px solid #5E5341;
     border-radius: 100px;
+    z-index: 2;
 
 }
 @media (max-width:767.98px){

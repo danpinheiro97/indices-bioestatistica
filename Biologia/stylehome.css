@@ -60,7 +60,7 @@ header{
 nav#menu1{
     list-style: none;
     position: relative;
-    text-align: right;
+    text-align: center;
     width:57%;
     right:20px;
 }
@@ -74,17 +74,18 @@ nav#menu1 li{
     display: inline-block;
     padding-top: 10.01%;
     padding-bottom: 6.07017544%;
-    padding-right: 7.01%;
+    padding-right: 2%;
     
 }
 @media (max-width:767.98px){
     nav#menu1 li
         {
-            width: 20%;
+            width: 25%;
             display: inline-block;
             padding-top: 0px;
             padding-bottom: 0px;
             padding-right: 0px;
+            left:0%;
             
     }}
 li#but1{
@@ -184,14 +185,14 @@ nav#menu1 li:hover{
     position:relative;
     color:#5E5341;
     height:fit-content;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
     text-align: left;
     right:25%;
     bottom:3%;
 }
 
 .opt{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
     font-weight: bolder;
 
@@ -214,7 +215,44 @@ li#but3.opt1{
     color:green;
 }
 
-hr#hr{
+
+header{
+    padding:0px;
+    position:Relative;
+    bottom:70px;
+}
+img#leaf{
+    position: relative;
+    width:40px;
+    top:57%;
+    right:55%;
+    z-index: 1;
+    background: transparent;
+    
+
+}
+@media (max-width:767.98px){
+    img#leaf{
+        right: 25%;
+        
+
+    }}
+img#leaf2{
+    width:40px;
+    position: relative;
+    top:75px;
+    left:70%;
+   z-index: 1;
+}
+@media (max-width:767.98px){
+    img#leaf2{
+        position: relative;
+        left:40%;
+        margin-right: 10px;
+        z-index: 1;
+        
+    }}
+    hr#hr{
     position: relative;
     width:850px;
     bottom:95%;
@@ -225,7 +263,7 @@ hr#hr2{
     position: relative;
     width:150%;
     left:10%;
-    bottom:95%;
+    bottom:97%;
     opacity: 80%;
     color:#EDEDE3;
 }
@@ -249,41 +287,6 @@ hr#hr2{
 
 
 
-header{
-    padding:0px;
-    position:Relative;
-    bottom:70px;
-}
-img#leaf{
-    position: relative;
-    width:40px;
-    top:75px;
-    right:90%;
-    z-index: 1;
-    background: transparent;
-    
-
-}
-@media (max-width:767.98px){
-    img#leaf{
-        right:220px;
-        z-index: 1;
-    }}
-img#leaf2{
-    width:40px;
-    position: relative;
-    top:75px;
-    left:30%;
-   z-index: 1;
-}
-@media (max-width:767.98px){
-    img#leaf2{
-        position: relative;
-        left:0px;
-        margin-right: 10px;
-        z-index: 1;
-        
-    }}
 
 div#main{
     position:relative;
@@ -326,15 +329,21 @@ div#main{
         background-color:#EDEDE3;
         border-radius:5px;
         border: none;
+        
 
     }}
 
 .bu  a{
+    position: relative;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
     font-size:15pt;
     color:#4b4233;
+    padding:15px;
+    padding-left: 19px;
+    padding-right: 25px;
+    left:2%;
       
       
 }
@@ -343,23 +352,28 @@ div#main{
         position: relative;
         font-size: 1em;
         bottom:0.5em;
+           padding:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+        
 
     }}
 
 .bu:hover{
     background-color:#1c5c03;
-    color:#EDEDE3;
+   
 
 }
 .bu a:hover{
-    color:#EDEDE3;
+     color:#EDEDE3;
+     
 }
 
 
 
 div#main h1{
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
     font-size: 80pt;
     right:30px;
     bottom:60px;
