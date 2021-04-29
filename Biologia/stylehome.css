@@ -217,7 +217,15 @@ li#but3.opt1{
 hr#hr{
     position: relative;
     width:850px;
-    bottom:300px;
+    bottom:95%;
+    opacity: 80%;
+    color:#EDEDE3;
+}
+hr#hr2{
+    position: relative;
+    width:150%;
+    left:10%;
+    bottom:95%;
     opacity: 80%;
     color:#EDEDE3;
 }
@@ -225,9 +233,19 @@ hr#hr{
     hr#hr{
         width:100%;
         position: relative;
-        bottom:30px;
+        bottom:5px;
         left:12%
     }}
+
+@media (max-width:767.98px){
+hr#hr2{
+    width:90%;
+    position: relative;
+    bottom:12px;
+    left:12%;
+
+}}
+
 
 
 
@@ -287,8 +305,8 @@ div#main{
 
 .bu{
     position:relative;
-    left: 325px;
-    bottom:300px;
+    left: 68%;
+    bottom:105%;
     width:170px;
     height:50px;
     background-color:#EDEDE3;
@@ -301,13 +319,13 @@ div#main{
 @media (max-width:767.98px){
     .bu{
         position:relative;
-        left:40%;
-        bottom:0px;
-        width:fit-content;
-        height: fit-content;
-     background-color:#EDEDE3;
-    border-radius:20px;
-    border: none;
+        left:48%;
+        bottom:1.5em;
+        width:30%;
+        height: 1.5em;
+        background-color:#EDEDE3;
+        border-radius:5px;
+        border: none;
 
     }}
 
@@ -320,14 +338,21 @@ div#main{
       
       
 }
+@media (max-width:767.98px){
+    .bu a{
+        position: relative;
+        font-size: 1em;
+        bottom:0.5em;
+
+    }}
 
 .bu:hover{
-    background-color:#BBAF8D ;
+    background-color:#1c5c03;
     color:#EDEDE3;
 
 }
 .bu a:hover{
-    color:#1c5c03;
+    color:#EDEDE3;
 }
 
 
@@ -345,7 +370,7 @@ div#main h1{
     div#main h1{
         font-size:25pt;
         position: relative;
-        top:40px;
+        top:66px;
         left:12%;
     }
 
@@ -353,9 +378,9 @@ div#main h1{
 
 div#main h2{
     position:relative;
-    font-family: papyrus, fantasy;
-    left: 465px;
-    bottom:250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    left: 88%;
+    bottom:75%;
     font-size: 45pt;
     font-style: initial;
     color:#EDEDE3;
@@ -364,19 +389,19 @@ div#main h2{
 @media (max-width:767.98px){
     div#main h2{
         font-size:14pt;
-        width:150px;
+        width:fit-content;
         position: relative;
-        left:60%;
-        bottom:12px;
+        left:66%;
+        top:0.8em;
     }}
 
 
 div#main p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20pt;
     position:Relative;
-    bottom:300px;
-    left: 160px;
+    bottom:100%;
+    left: 35%;
     color:#EDEDE3;
     text-align: center;
 }
@@ -384,6 +409,18 @@ div#main p{
     div#main p{
         font-size:8pt;
         position: relative;
-        left:12%;
-        bottom:20px;
+        left:28%;
+        bottom:15px;
+        width:70%;
+    }}
+
+section{
+    position: relative;
+    right:4%;
+
+}
+@media (max-width:767.98px){
+    section{
+        margin:0 auto;
+        left:2.5%;
     }}
