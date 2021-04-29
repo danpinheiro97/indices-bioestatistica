@@ -282,6 +282,15 @@ table .cd{
         text-align: right;
       
     }}
+    table .ce{
+    position: relative;
+    font-weight: bolder;
+}
+@media (max-width:767.98px){
+    table .ce{
+        font-weight: bolder;
+      
+    }}
 
 td#nome{
     position: relative;
@@ -844,6 +853,7 @@ ul#interes{
    font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
     position: relative;
+    right:1.5%;
     bottom:2em;
     width:32.5%;
     height:fit-content;
@@ -878,3 +888,7 @@ ul#interess:hover{
 section{
     width:950px;
 }
+@media (max-width:767.98px){
+    section{
+        width:20%;
+    }}
