@@ -12,36 +12,125 @@ body
 header{
     height:170px;
 }
+@media (max-width:767.98px){
+    header{
+        margin: 0 auto;
+    }}
+
+@media (max-width:767.98px){
+    header{
+        height:fit-content;
+        width: fit-content;
+    
+    }
+
+}
 .menubar{
     display: flex;
     justify-content: center;
     position: relative;
     width:500px;
-    height:80px;
+    height:fit-content;
     background-color:#EDEDE3;
-    left: 800px;
     border-bottom: 2px solid #5E5341;
-    border-radius: 35px;
-    margin:none;
-
+    border-radius: 100px;
 
 }
+@media (max-width:767.98px){
+    .menubar{display: flex;
+        justify-content: center;
+        width: 160%;
+        height:130px;
+        right:30%;
+      
+
+    }}
 nav#menu1{
     list-style: none;
     position: relative;
-    text-align: center;
-    right:20px;
+    text-align: right;
     width:57%;
-
-
-
+    right:20px;
 }
+
+@media (max-width:767.98px){
+    nav#menu1
+        {
+            width: 100%;
+    }}
 nav#menu1 li{
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 23px;
-    padding-right: 20px;
+    padding-top: 10.01%;
+    padding-bottom: 6.07017544%;
+    padding-right: 7.01%;
+    
 }
+@media (max-width:767.98px){
+    nav#menu1 li
+        {
+            width: 20%;
+            display: inline-block;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-right: 0px;
+            
+    }}
+li#but1{
+    position: relative;
+    
+
+}
+@media (max-width:767.98px){
+    li#but1{
+        right:80px;
+        top:25px;
+        padding:0px;
+        width: 50px;
+    
+
+    }}
+
+li#but2{
+    position: relative;
+ 
+}
+@media (max-width:767.98px){
+    li#but2{
+    right:70px; 
+    top:25px;
+    padding:0px;
+     width: fit-content;
+       
+
+}}
+li#but3{
+    position: relative;
+    
+}
+
+ @media (max-width:767.98px){
+li#but3{
+       right: 140px;
+        top:5px;
+        
+        padding:0px;
+}}
+
+li#but4{
+    position: relative;
+    
+}
+
+ @media (max-width:767.98px){
+li#but4{
+    right:60px; 
+    top:25px;   
+        padding:0px;
+         width: fit-content;
+       
+}}
+
+
 
 nav#menu1 li:hover{
     text-decoration: none;
@@ -52,15 +141,25 @@ nav#menu1 li:hover{
 .menu li ul{
     position: absolute;
     display: none;
+    width: 160%;
     text-align: right;
     background-color: #E1DCC6;
     font-style: none;
-    top:78px;
-    height: 40px;
-    width: fit-content;
     border: 1px solid #5E5341;
     border-radius: 2px;
 }
+@media (max-width:767.98px){
+    .menu li ul{
+        position: absolute;
+        top: 100%;
+        left:0%;
+        width: 180px;
+        height:30px;
+        padding: 0px;
+
+        
+    }}
+
 .menu li:hover ul, .menu li.over ul{
     display: block;
    
@@ -74,11 +173,10 @@ nav#menu1 li:hover{
     color:#5E5341;
     height:fit-content;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    bottom:8px;
-    right:40px;
-    
+    text-align: left;
+    right:25%;
+    bottom:3%;
 }
-
 
 .opt{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -91,6 +189,15 @@ nav#menu1 li:hover{
     color:#5E5341;
 }
 
+li#but3.opt1{
+    position: relative;
+}
+@media (max-width:767.98px){
+   li#but3.opt1{
+        width:180px;
+        left:0px;
+    }}
+
 .menu a:hover{
     color:green;
 }
@@ -98,10 +205,35 @@ nav#menu1 li:hover{
 hr#hr{
     position: relative;
     width:850px;
-    bottom:300px;
+    bottom:95%;
     opacity: 80%;
     color:#EDEDE3;
 }
+hr#hr2{
+    position: relative;
+    width:150%;
+    left:10%;
+    bottom:95%;
+    opacity: 80%;
+    color:#EDEDE3;
+}
+@media (max-width:767.98px){
+    hr#hr{
+        width:100%;
+        position: relative;
+        bottom:5px;
+        left:12%
+    }}
+
+@media (max-width:767.98px){
+hr#hr2{
+    width:90%;
+    position: relative;
+    bottom:12px;
+    left:12%;
+
+}}
+
 
 
 
@@ -114,17 +246,33 @@ img#leaf{
     position: relative;
     width:40px;
     top:75px;
-    z-index: 2;
+    right:90%;
+    z-index: 1;
     background: transparent;
     
 
 }
+@media (max-width:767.98px){
+    img#leaf{
+        right:220px;
+        z-index: 1;
+    }}
 img#leaf2{
     width:40px;
     position: relative;
     top:75px;
-    z-index: 2;
+    left:30%;
+   z-index: 1;
 }
+@media (max-width:767.98px){
+    img#leaf2{
+        position: relative;
+        left:0px;
+        margin-right: 10px;
+        z-index: 1;
+        
+    }}
+
 section#func{
     display: block;
     padding-left:6%;
@@ -142,6 +290,13 @@ section#func{
 
 
 }
+@media (max-width:767.98px){
+    section#func{
+        position: relative;
+        width:350px;
+        right:12%;
+        bottom:3em;
+    }}
 
 .inputs{
     width:10%;
@@ -182,6 +337,7 @@ table#tableshannon{
     font-weight: bolder;
 
 }
+
 .buttonsh:hover{
     background-color: #ffffff;
     color:#5E5341;
@@ -194,6 +350,11 @@ button#register{
     top:7px;
     left:20px;
 }
+@media (max-width:767.98px){
+    button#register{
+        position: relative;
+        left:25%;
+    }}
 table#tableshannon tr td{
     border: 1px solid #5E5341;
     color:#5E5341;
@@ -202,6 +363,11 @@ table#tableshannon tr td{
 div#demo{
     width:559px;
 }
+
+@media (max-width:767.98px){
+    div#demo{
+        width:390px;
+    }}
 aside#left{
     width: 300px;
     display:block;
@@ -220,6 +386,10 @@ aside#left{
     font-size: 10pt;
 
 }
+@media (max-width:767.98px){
+    aside#left{
+        display: none;
+    }}
 aside#left h1{
     text-align: center;
 
@@ -231,10 +401,12 @@ aside#left p{
     font-size: 12pt;
 }
 aside#right{
+    width:fit-content;
     color:#5E5341;
-    width:300px;
     height:fit-content;
-    display: block;
+    position: relative;
+    right:0%;
+    bottom:10em;
     background-color: transparent;
     border-radius: 5px;
     padding-left: 10px;
@@ -244,6 +416,9 @@ aside#right{
 
 
 }
+@media (max-width:767.98px){
+    aside#right{
+        display: none;}}
 
 .inputsh{
     border-radius: 3px;
@@ -256,7 +431,7 @@ aside#right h1{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#5E5341;
-    left:115px;
+    left:0px;
    
    
 }
@@ -326,4 +501,5 @@ div#linha2 h1{
     left:10px;
 
 }
+
 
