@@ -1,16 +1,20 @@
 function inputs() {
   var quantidade = parseInt(window.document.getElementById("inpqt").value);
   var conteudo = "";
+  var label ="";
   for (i = 0; i < quantidade; i++) {
+    label =
+      ' <label class="labels">Digite a quantidade de indivíduos por espécie:<label/><br>';
     conteudo +=
       '<input placeholder="SPC' +
       i +
-      '" class="inputs" type="text" onchange="shannon()" name="A' +
+      '" class="inputs" type="number" onchange="shannon()" name="A' +
       i +
       '"/>';
   }
 
-  document.getElementById("demo").innerHTML = conteudo;
+  document.getElementById("demo").innerHTML = label+conteudo;
+
 }
 var especies = [];
 var pi = [];
@@ -44,6 +48,7 @@ function shannon() {
   totalpi = -1 * totalpi;
   document.getElementById("shannonresultado").value = totalpi;
 }
+
 
 var dados = [];
 function salvar_dados(){

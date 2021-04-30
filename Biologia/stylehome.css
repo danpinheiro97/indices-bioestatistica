@@ -6,35 +6,33 @@ body
     background-color:#EDEDE3;
     background-image: url("background.jpg");
     background-size: cover; 
-    min-height: 100vh;
+
     color:#111f2a;
-    width:auto;
+    width:99%;
+    height: 42em;
   
 }
 @media (max-width:767.98px){
     body{
-      background-image: url("background.jpg");
-        height: fit-content;
-        min-height: 0vh;
-       
-       
+    background-image: url( "background.jpg");
+    height: 100%;
+    width: 96%;
+    min-height: 0vh;
+
     }
 }
 
 
 header{
-    height:170px;
+    height:8.2em;
+    width:38%;
 }
-@media (max-width:767.98px){
-    header{
-        margin: 0 auto;
-    }}
 
 @media (max-width:767.98px){
     header{
-        height:fit-content;
-        width: fit-content;
-    
+      height:fit-content;
+        width: 100%;
+        margin: 0 auto;
     }
 
 }
@@ -42,7 +40,7 @@ header{
     display: flex;
     justify-content: center;
     position: relative;
-    width:500px;
+    width:28em;
     height:fit-content;
     background-color:#EDEDE3;
     border-bottom: 3px solid #5E5341;
@@ -52,8 +50,8 @@ header{
 @media (max-width:767.98px){
     .menubar{display: flex;
         justify-content: center;
-        width: 360px;
-        height:130px;
+        width: 100%;
+        height:8em;
       
 
     }}
@@ -82,7 +80,7 @@ nav#menu1 li{
         {
             width: 25%;
             display: inline-block;
-            padding-top: 0px;
+            padding-top: 5px;
             padding-bottom: 0px;
             padding-right: 0px;
             left:0%;
@@ -125,24 +123,23 @@ li#but3{
 li#but3{
        right: 140px;
         top:5px;
-        
-        padding:0px;
+        margin-bottom:5%;
 }}
 
-li#but4{
+
+
+li#but5{
     position: relative;
     
 }
 
  @media (max-width:767.98px){
-li#but4{
+li#but5{
     right:60px; 
     top:25px;   
         padding:0px;
-         width: fit-content;
+         width: fit-content;}}
        
-}}
-
 
 
 nav#menu1 li:hover{
@@ -166,9 +163,10 @@ nav#menu1 li:hover{
         position: absolute;
         top: 100%;
         left:0%;
-        width: 180px;
-        height:30px;
+        width:fit-content;
+        height:fit-content;
         padding: 0px;
+        z-index: 2;
 
         
     }}
@@ -208,8 +206,9 @@ li#but3.opt1{
 @media (max-width:767.98px){
    li#but3.opt1{
         width:180px;
-        left:0px;
+        left:3%;
     }}
+
 
 .menu a:hover{
     color:green;
@@ -253,34 +252,34 @@ img#leaf2{
         
     }}
     hr#hr{
-    position: relative;
-    width:850px;
-    bottom:95%;
+     position: relative;
+    width: 80%;
+    bottom: 100%;
     opacity: 80%;
-    color:#EDEDE3;
+    color: #EDEDE3;
 }
 hr#hr2{
-    position: relative;
-    width:150%;
-    left:10%;
-    bottom:97%;
+       position: relative;
+    width: 75%;
+    bottom: 102%;
     opacity: 80%;
-    color:#EDEDE3;
+    color: #EDEDE3;
 }
 @media (max-width:767.98px){
     hr#hr{
-        width:100%;
-        position: relative;
-        bottom:5px;
-        left:12%
+    width: 85%;
+    position: relative;
+    bottom: 0.4em;
+
+      
     }}
 
 @media (max-width:767.98px){
 hr#hr2{
-    width:90%;
+width: 71%;
     position: relative;
-    bottom:12px;
-    left:12%;
+    bottom: 0.8em;
+
 
 }}
 
@@ -289,31 +288,31 @@ hr#hr2{
 
 
 div#main{
-    position:relative;
-    width:500px;
-    height:300px;
-    left:22%;
-    top:20px;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 30%;
 
 }
 
 @media (max-width:767.98px){
     div#main{
-        width:fit-content;
-        left:0px;
-        height:fit-content
+    width: 100%;
+    left: 0px;
+    height: 100%;
+
         
     }
 }
 
 .bu{
-    position:relative;
-    left: 68%;
-    bottom:105%;
-    width:170px;
-    height:50px;
-    background-color:#EDEDE3;
-    border-radius:20px;
+position: relative;
+    left: 45%;
+    bottom: 105%;
+    width: 12%;
+    height: 3em;
+    background-color: #EDEDE3;
+    border-radius: 10px;
     border: none;
     padding: 10px;
 
@@ -321,14 +320,15 @@ div#main{
 }
 @media (max-width:767.98px){
     .bu{
-        position:relative;
-        left:48%;
-        bottom:1.5em;
-        width:30%;
-        height: 1.5em;
-        background-color:#EDEDE3;
-        border-radius:5px;
-        border: none;
+    position: relative;
+    left: 37%;
+    bottom: 1.5em;
+    width: 25%;
+    height: 1em;
+    background-color: #EDEDE3;
+    border-radius: 5px;
+    border: none;
+
         
 
     }}
@@ -373,68 +373,76 @@ div#main{
 
 div#main h1{
     position: relative;
-      font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 80pt;
-    right:30px;
-    bottom:60px;
-    color:#EDEDE3;
-
+    left: 15%;
+    top: 296%;
+    color: #EDEDE3;
+    width: fit-content;
 }
+
 @media (max-width:767.98px){
     div#main h1{
-        font-size:25pt;
-        position: relative;
-        top:66px;
-        left:12%;
+    font-size: 25pt;
+    position: relative;
+    top: 1.9em;
+    left: 10%;
+    width: 39%;
     }
 
 }
 
 div#main h2{
-    position:relative;
+     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
-    left: 88%;
-    bottom:75%;
-    font-size: 45pt;
-    font-style: initial;
-    color:#EDEDE3;
+    left: 55%;
+    bottom: -1%;
+    font-size: 42pt;
+    font-weight: bolder;
+    color: #EDEDE3;
+    width: fit-content;
 
 }
 @media (max-width:767.98px){
     div#main h2{
-        font-size:14pt;
-        width:fit-content;
-        position: relative;
-        left:66%;
-        top:0.8em;
+    font-size: 14pt;
+    width: fit-content;
+    position: relative;
+    left: 54%;
+    top: 0.7em;
     }}
 
 
 div#main p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20pt;
-    position:Relative;
-    bottom:100%;
-    left: 35%;
-    color:#EDEDE3;
+    font-size: 15pt;
+    position: Relative;
+    bottom: 106%;
+    color: #EDEDE3;
     text-align: center;
 }
 @media (max-width:767.98px){
     div#main p{
-        font-size:8pt;
-        position: relative;
-        left:28%;
-        bottom:15px;
-        width:70%;
+    font-size: 7pt;
+    position: relative;
+    left: 1%;
+    bottom: 2em;
+    width: 100%;
     }}
 
 section{
-    position: relative;
-    right:4%;
+      position: relative;
+    bottom: 8em;
+    right: 0%;
+    width: 100%;
+    height: 7em;
 
 }
 @media (max-width:767.98px){
     section{
-        margin:0 auto;
-        left:2.5%;
+    margin: 0 auto;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    bottom: 0em;
     }}

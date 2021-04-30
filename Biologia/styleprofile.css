@@ -9,19 +9,21 @@ body
     min-height: 100vh;
     color:#111f2a;
 }
+@media (max-width:767.98px){
+    body{
+        margin: 0 auto;
+        width: 22.5em;
+    }}
 
 header{
     height:170px;
 }
-@media (max-width:767.98px){
-    header{
-        margin: 0 auto;
-    }}
 
 @media (max-width:767.98px){
     header{
         height:fit-content;
-        width: fit-content;
+        width: 100%;
+        margin: 0 auto;
     
     }
 
@@ -35,21 +37,20 @@ header{
     background-color:#EDEDE3;
     border-bottom: 3px solid #5E5341;
     border-radius: 100px;
-    z-index: 2;
 
 }
 @media (max-width:767.98px){
     .menubar{display: flex;
         justify-content: center;
-        width: 350px;
-        height:130px;
+        width: 100%;
+        height:8em;
       
 
     }}
 nav#menu1{
     list-style: none;
     position: relative;
-    text-align: right;
+    text-align: center;
     width:57%;
     right:20px;
 }
@@ -63,20 +64,18 @@ nav#menu1 li{
     display: inline-block;
     padding-top: 10.01%;
     padding-bottom: 6.07017544%;
-    padding-right: 7.01%;
+    padding-right: 2%;
     
 }
 @media (max-width:767.98px){
     nav#menu1 li
         {
-            width: 20%;
-            
+            width: 25%;
             display: inline-block;
-            padding-top: 0px;
+            padding-top: 5px;
             padding-bottom: 0px;
             padding-right: 0px;
-            padding-left:5px;
-            margin-right:0px;
+            left:0%;
             
     }}
 li#but1{
@@ -116,24 +115,23 @@ li#but3{
 li#but3{
        right: 140px;
         top:5px;
-        
-        padding:0px;
+        margin-bottom:5%;
 }}
 
-li#but4{
+
+
+li#but5{
     position: relative;
     
 }
 
  @media (max-width:767.98px){
-li#but4{
+li#but5{
     right:60px; 
     top:25px;   
         padding:0px;
-         width: fit-content;
+         width: fit-content;}}
        
-}}
-
 
 
 nav#menu1 li:hover{
@@ -151,15 +149,17 @@ nav#menu1 li:hover{
     font-style: none;
     border: 1px solid #5E5341;
     border-radius: 2px;
+    z-index: 2
+    ;
 }
 @media (max-width:767.98px){
     .menu li ul{
         position: absolute;
         top: 100%;
-        left:0%;
-        width: 180px;
-        height:30px;
+        width:fit-content;
+        height:fit-content;
         padding: 0px;
+        z-index: 2;
 
         
     }}
@@ -176,16 +176,17 @@ nav#menu1 li:hover{
     position:relative;
     color:#5E5341;
     height:fit-content;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
     text-align: left;
     right:25%;
     bottom:3%;
 }
 
+
 .opt{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 .menu a{
@@ -193,13 +194,14 @@ nav#menu1 li:hover{
     color:#5E5341;
 }
 
+
 li#but3.opt1{
     position: relative;
 }
 @media (max-width:767.98px){
    li#but3.opt1{
         width:180px;
-        left:0px;
+        left:3%;
     }}
 
 .menu a:hover{
@@ -215,8 +217,8 @@ header{
 img#leaf{
     position: relative;
     width:40px;
-    top:75px;
-    right:90%;
+    top:57%;
+    right:55%;
     z-index: 1;
     background: transparent;
     
@@ -224,21 +226,24 @@ img#leaf{
 }
 @media (max-width:767.98px){
     img#leaf{
-        right:14.3em;
-        z-index: 2;
+        right: 25%;
+        
+
     }}
 img#leaf2{
     width:40px;
     position: relative;
     top:75px;
-    left:35%;
-   z-index: 2;
+    left:70%;
+   z-index: 1;
 }
 @media (max-width:767.98px){
     img#leaf2{
-        left:0px;
-        z-index: 2;
-
+        position: relative;
+        left:40%;
+        margin-right: 10px;
+        z-index: 1;
+        
     }}
 img#fp{
     width:250px;
@@ -272,7 +277,7 @@ table{
         width:200px;
         left:0%;
         top:10%;
-        font-size: 11.5pt;
+        font-size: 10pt;
     }}
 table .cd{
     position: relative;
@@ -280,6 +285,7 @@ table .cd{
 @media (max-width:767.98px){
     table .cd{
         text-align: right;
+        left:20%;
       
     }}
     table .ce{
@@ -313,10 +319,11 @@ div#profile{
 }
 @media (max-width:767.98px){
     div#profile{
-        right:0%;
+        left:0%;
         height:18em;
         bottom:4.5em;
-        width:fit-content;
+        width:100%;
+        padding-right: 0%;
     }}
 
 
@@ -330,9 +337,10 @@ div#main{
 }
 @media (max-width:767.98px){
     div#main{
-        width: 200px;
-        top:8em;
+        width: 22.8em;
+        top:5em;
         bottom:0em;
+        left:0%;
     }}
 a#git{
     text-decoration: none;
@@ -340,22 +348,48 @@ a#git{
 }
 
 div#estudos{
-    position: relative;
+    width:24em
 
 }
 @media (max-width:767.98px){
     div#estudos{
         width: 100%;
         left:45%;
-        font-size: 11.5pt;
+        font-size: 10pt;
     }}
 div#cursos{
     position: relative;
+    width:24em
 
 }
 @media (max-width:767.98px){
     div#cursos{
         font-size: 10pt;
+        width:27.5em
+    }}
+    div#intereses{
+    position: relative;
+    width:24em
+
+}
+@media (max-width:767.98px){
+    div#intereses{
+        font-size: 10pt;
+            width: 27.4em;
+    }}
+
+div#experiencia{
+    position: relative;
+    left:50%;
+    width:24em;
+    bottom:50.4em;
+}
+@media (max-width:767.98px){
+    div#experiencia{
+        font-size: 10pt;
+        left:0%;
+        width:27.5em;
+        bottom:0;
     }}
 
 
@@ -373,7 +407,7 @@ table#testudos1{
 }
 @media (max-width:767.98px){
     table#testudos1{
-        width:fit-content;
+        width:100%;
         font-size: 9pt;
         position: relative;
         border: none;
@@ -404,8 +438,9 @@ h2#testu1{
 }
 @media (max-width:767.98px){
     h2#testu1{
-        width:100%;
-        
+        right:0%;
+        width: 100%;
+        font-size: 12pt;
     }}
 
 #testudos1 .cd {
@@ -452,7 +487,7 @@ table#testudos2{
 h2#testu2{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -462,8 +497,8 @@ h2#testu2{
 }
 @media (max-width:767.98px){
     h2#testu2{
-          right:36%;
-        width: 162%;
+        right:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 h2#testu2:hover table#testudos2, h2#testu2.over table#testudos2{
@@ -474,7 +509,7 @@ h2#testu2:hover table#testudos2, h2#testu2.over table#testudos2{
 h1#titulo1{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     background-color:#CCB78C;
     text-align: center;
@@ -482,7 +517,7 @@ h1#titulo1{
 }
 @media (max-width:767.98px){
     h1#titulo1{
-        width:90%;
+        width:100%;
 
     }}
 
@@ -490,7 +525,7 @@ h1#titulo1{
 h2#testu1{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -498,16 +533,11 @@ h2#testu1{
 
 
 }
-@media (max-width:767.98px){
-    h2#testu1{
-        right:36%;
-        width: 162%;
-        font-size: 12pt;
-    }}
+
 h1#titulo2{
-     font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     background-color:#CCB78C;
     text-align: center;
     position: relative;
@@ -516,8 +546,8 @@ h1#titulo2{
 }
 @media (max-width:767.98px){
     h1#titulo2{
-        width:90%;
-        left:45%;
+        width:100%;
+        
     }}
 
 table#cursos1{
@@ -539,6 +569,7 @@ table#cursos1{
         font-size: 9pt;
         position: relative;
         border: none;
+    
     }}
 #cursos1 .cd {
     position: relative;
@@ -554,7 +585,7 @@ table#cursos1{
 h2#curso1{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -564,8 +595,8 @@ h2#curso1{
 }
 @media (max-width:767.98px){
     h2#curso1{
-         left:9%;
-        width: 162%;
+        left:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 h2#curso1:hover table#cursos1, h2#curso1.over table#cursos1{
@@ -606,7 +637,7 @@ table#cursos2{
 h2#curso2{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -615,8 +646,8 @@ h2#curso2{
 }
 @media (max-width:767.98px){
     h2#curso2{
-        left:9%;
-        width: 162%;
+       left:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 
@@ -658,7 +689,7 @@ table#cursos3{
 h2#curso3{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -667,8 +698,8 @@ h2#curso3{
 }
 @media (max-width:767.98px){
     h2#curso3{
-       left:9%;
-        width: 162%;
+     left:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 
@@ -710,7 +741,7 @@ table#cursos4{
 h2#curso4{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+       width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -719,8 +750,8 @@ h2#curso4{
 }
 @media (max-width:767.98px){
     h2#curso4{
-       left:9%;
-        width: 162%;
+      left:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 
@@ -762,7 +793,7 @@ table#cursos5{
 h2#curso5{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+       width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -771,8 +802,8 @@ h2#curso5{
 }
 @media (max-width:767.98px){
     h2#curso5{
-        left:9%;
-        width: 162%;
+     left:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 
@@ -814,7 +845,7 @@ table#cursos6{
 h2#curso6{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     position:relative;
     text-align: center;
     border-radius: 20px;
@@ -823,8 +854,8 @@ h2#curso6{
 }
 @media (max-width:767.98px){
     h2#curso6{
-         left:9%;
-        width: 162%;
+      left:0%;
+        width: 100%;
         font-size: 12pt;
     }}
 
@@ -835,7 +866,7 @@ h2#curso6:hover table#cursos6, h2#curso6.over table#cursos6{
 h1#titulo3{
      font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
-    width:40%;
+    width:100%;
     background-color:#CCB78C;
     text-align: center;
     position: relative;
@@ -843,8 +874,8 @@ h1#titulo3{
 }
 @media (max-width:767.98px){
      h1#titulo3{
-        width:90%;
-        left:45%;
+        width:100%;
+        left:0%;
         
 
     }}
@@ -853,9 +884,8 @@ ul#interes{
    font-family: 'Source Sans Pro', sans-serif;
     color:#5E5341;
     position: relative;
-    right:1.5%;
-    bottom:2em;
-    width:32.5%;
+    right:0%;
+    width:76%;
     height:fit-content;
     list-style-type: none;
     font-weight: normal;
@@ -864,9 +894,10 @@ ul#interes{
 
 @media (max-width:767.98px){
     ul#interes{
-        width: 150%;
+        width: 100%;
         text-align: center;
-        right:7%;
+        bottom:2em;
+        right:12%;
     
     
     }}
@@ -890,5 +921,290 @@ section{
 }
 @media (max-width:767.98px){
     section{
-        width:20%;
+        width:100%;
     }}
+
+
+table#experiencias1{
+     display:none;
+    width:100%;
+    text-align: left;
+    height: fit-content;
+   left:0%;
+    top:0px;
+    color:#5E5341;
+    border-radius: 3px;
+    font-size: 12pt;
+    
+
+}
+@media (max-width:767.98px){
+    table#experiencias1{
+        width:fit-content;
+        font-size: 9pt;
+        position: relative;
+        border: none;
+        margin-right: 13%;
+    }}
+#experiencias1 .cd {
+    position: relative;
+    left:40px;
+    color: #5E5341;
+    font-weight: lighter;
+}
+#experiencias1 .ce {
+    font-weight: bold;
+    
+  
+}
+h2#experiencia1{
+     font-family: 'Source Sans Pro', sans-serif;
+    color:#5E5341;
+     width:100%;
+    position:relative;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.2em;
+
+
+}
+@media (max-width:767.98px){
+    h2#experiencia1{
+        left:0%;
+        width: 100%;
+        font-size: 12pt;
+       
+    }}
+h2#experiencia1:hover table#experiencias1, h2#experiencia1.over table#experiencias1{
+    display: block;
+   
+}
+h1#titulo4{
+     font-family: 'Source Sans Pro', sans-serif;
+    color:#5E5341;
+    width:100%;
+    background-color:#CCB78C;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+@media (max-width:767.98px){
+     h1#titulo4{
+        width:100%;
+        left:0%;
+        
+
+    }}
+table#experiencias2{
+     display:none;
+    width:100%;
+    text-align: left;
+    height: fit-content;
+   left:0%;
+    top:0px;
+    color:#5E5341;
+    border-radius: 3px;
+    font-size: 12pt;
+    
+
+}
+@media (max-width:767.98px){
+    table#experiencias2{
+        width:fit-content;
+        font-size: 9pt;
+        position: relative;
+        border: none;
+        margin-right: 13%;
+    }}
+#experiencias2 .cd {
+    position: relative;
+    left:40px;
+    color: #5E5341;
+    font-weight: lighter;
+}
+#experiencias2 .ce {
+    font-weight: bold;
+    
+  
+}
+h2#experiencia2{
+     font-family: 'Source Sans Pro', sans-serif;
+    color:#5E5341;
+     width:100%;
+    position:relative;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.2em;
+
+
+}
+@media (max-width:767.98px){
+    h2#experiencia2{
+         left:0%;
+        width: 100%;
+        font-size: 12pt;
+    }}
+h2#experiencia2:hover table#experiencias2, h2#experiencia2.over table#experiencias2{
+    display: block;
+   
+}
+table#experiencias3{
+     display:none;
+    width:100%;
+    text-align: left;
+    height: fit-content;
+   left:0%;
+    top:0px;
+    color:#5E5341;
+    border-radius: 3px;
+    font-size: 12pt;
+    
+    
+
+}
+@media (max-width:767.98px){
+    table#experiencias3{
+        width:fit-content;
+        font-size: 9pt;
+        position: relative;
+        border: none;
+         margin-right: 13%;
+    }}
+#experiencias3 .cd {
+    position: relative;
+    left:40px;
+    color: #5E5341;
+    font-weight: lighter;
+}
+#experiencias3 .ce {
+    font-weight: bold;
+    
+  
+}
+h2#experiencia3{
+     font-family: 'Source Sans Pro', sans-serif;
+    color:#5E5341;
+    width:100%;
+    position:relative;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.2em;
+
+
+}
+@media (max-width:767.98px){
+    h2#experiencia3{
+      left:0%;
+        width: 100%;
+        font-size: 12pt;
+    }}
+h2#experiencia3:hover table#experiencias3, h2#experiencia3.over table#experiencias3{
+    display: block;
+   
+}
+table#experiencias4{
+     display:none;
+    width:100%;
+    text-align: left;
+    height: fit-content;
+   left:0%;
+    top:0px;
+    color:#5E5341;
+    border-radius: 3px;
+    font-size: 12pt;
+    
+
+}
+@media (max-width:767.98px){
+    table#experiencias4{
+        width:fit-content;
+        font-size: 9pt;
+        position: relative;
+        border: none;
+         margin-right: 13%;
+    }}
+#experiencias4 .cd {
+    position: relative;
+    left:40px;
+    color: #5E5341;
+    font-weight: lighter;
+}
+#experiencias4 .ce {
+    font-weight: bold;
+    
+  
+}
+h2#experiencia4{
+     font-family: 'Source Sans Pro', sans-serif;
+    color:#5E5341;
+       width:100%;
+    position:relative;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.2em;
+
+
+}
+@media (max-width:767.98px){
+    h2#experiencia4{
+   left:0%;
+        width: 100%;
+        font-size: 12pt;
+    }}
+h2#experiencia4:hover table#experiencias4, h2#experiencia4.over table#experiencias4{
+    display: block;
+   
+}
+table#experiencias5{
+     display:none;
+    width:100%;
+    text-align: left;
+    height: fit-content;
+   left:0%;
+    top:0px;
+    color:#5E5341;
+    border-radius: 3px;
+    font-size: 12pt;
+    
+
+}
+@media (max-width:767.98px){
+    table#experiencias5{
+        width:fit-content;
+        font-size: 9pt;
+        position: relative;
+        border: none;
+         margin-right: 13%;
+    }}
+#experiencias5 .cd {
+    position: relative;
+    left:40px;
+    color: #5E5341;
+    font-weight: lighter;
+}
+#experiencias5 .ce {
+    font-weight: bold;
+    
+  
+}
+h2#experiencia5{
+     font-family: 'Source Sans Pro', sans-serif;
+    color:#5E5341;
+      width:100%;
+    position:relative;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.2em;
+
+
+}
+@media (max-width:767.98px){
+    h2#experiencia5{
+   left:0%;
+        width: 100%;
+        font-size: 12pt;
+    }}
+h2#experiencia5:hover table#experiencias5, h2#experiencia5.over table#experiencias5{
+    display: block;
+   
+}

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no user-scalable=no">
      <link rel="shortcut icon" href="icone.ico" type="image/x-icon" />
     <title>Shannon</title>
-    <link rel="stylesheet" href="styleindices.css" />
-    <script lang="javascript" src="funçao.js"></script>
+    <link rel="stylesheet" href="styleshannon.css" />
+    <script lang="javascript" src="shannon.js"></script>
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -25,11 +25,11 @@
             <li class="opt" id="but2">
               PROJETOS
               <ul>
-                <li class="opt1" id ="but3"><a href="http://danielpinheiro.bio.br/indices.html">Índice de Shannon</a></li>
-
+                <li class="opt1" id ="but3"><a href="http://danielpinheiro.bio.br/shannon.html">Índice de Shannon</a></li>
+                <li class="opt1" id ="but3"><a href="http://danielpinheiro.bio.br/simpson.html">Índice de Simpson</a></li>
               </ul>
             </li>
-          <li  class="opt" id ="but4"><a href="http://danielpinheiro.bio.br/perfil.html">PERFIL</a></li>
+          <li  class="opt" id ="but5"><a href="http://danielpinheiro.bio.br/perfil.html">PERFIL</a></li>
           </ul>
         </nav>
       </div>
@@ -37,7 +37,15 @@
     <div id="divp">
       <aside = id="left">
       <h1>O que é o índice de Shannon?</h1>
-      <p>O índice de Shannon (também chamado de índice Shannon-Weaver ou de índice do Shannon-Wiener) é um dos diversos índices da diversidade usados para medir a diversidade em dados categóricos. É simplesmente a informação entropica da distribuição, tratamento as espécies como símbolos e o tamanhos da respectiva população como uma probabilidade.</p>
+      <p>Mede o grau de incerteza em prever a
+que espécie pertencerá um indivíduo escolhido, ao acaso,
+de uma amostra com S espécies e N indivíduos. Quanto
+menor o valor do índice de Shannon, menor o grau de
+incerteza e, portanto, a diversidade da amostra é baixa. A
+diversidade tende a ser mais alta quanto maior o valor do
+índice. É calculado por meio da fórmula onde
+pi: freqüência de cada espécie, para i variando de 1 a S
+(Riqueza).</p>
 
     </aside>
     <section id="func">
@@ -62,12 +70,12 @@
             onchange="inputs()"
           />
         </p>
-              <label class="labels">Digite a quantidade de indivíduos por espécie:<label/>
+             
         <div id="demo"></div>
   
       </form>
       <p>
-        <label for="shannonresultado">Resultado</label><br /><input
+        <label for="shannonresultado" class="labels">Resultado</label><br /><input
            class = "inputsh"
           type="text"
           id="shannonresultado"
