@@ -408,6 +408,7 @@ table#testudos1{
 @media (max-width:767.98px){
     table#testudos1{
         width:100%;
+        margin-left:5%;
         font-size: 9pt;
         position: relative;
         border: none;
@@ -469,7 +470,7 @@ table#testudos2{
 @media (max-width:767.98px){
     table#testudos2{
         width:fit-content;
-       
+            margin-left:5%;
         font-size: 9pt;
         position: relative;
         border: none;
@@ -566,6 +567,7 @@ table#cursos1{
 @media (max-width:767.98px){
     table#cursos1{
         width:fit-content;
+              margin-left:5%;
         font-size: 9pt;
         position: relative;
         border: none;
@@ -619,6 +621,7 @@ table#cursos2{
 @media (max-width:767.98px){
     table#cursos2{
         width:fit-content;
+              margin-left:5%;
         font-size: 9pt;
         position: relative;
         border: none;
@@ -671,6 +674,7 @@ table#cursos3{
 @media (max-width:767.98px){
     table#cursos3{
         width:fit-content;
+              margin-left:5%;
         font-size: 9pt;
         position: relative;
         border: none;
@@ -710,6 +714,7 @@ h2#curso3:hover table#cursos3, h2#curso3.over table#cursos3{
 table#cursos4{
   display:none;
     width:100%;
+          margin-left:5%;
     text-align: left;
     height: fit-content;
   left:0%;
@@ -764,6 +769,7 @@ table#cursos5{
     width:100%;
     text-align: left;
     height: fit-content;
+          margin-left:5%;
      left:0%;
     top:0px;
     color:#5E5341;
@@ -814,6 +820,7 @@ h2#curso5:hover table#cursos5, h2#curso5.over table#cursos5{
 table#cursos6{
      display:none;
     width:100%;
+          margin-left:5%;
     text-align: left;
     height: fit-content;
    left:0%;
